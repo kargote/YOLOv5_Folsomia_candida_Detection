@@ -18,28 +18,21 @@ Ecological Informatics.
 ---
 
 ## Repository Structure
+ 
+This repository contains only the code necessary for training and inference.
 
-/models
-├── best_1280px_v5l.pt # Best model weights
-├── dataset200img1280px_v100 # Training logs and outputs for 1280px dataset
-├── dataset200img640px_v100 # Training logs and outputs for 640px dataset
-└── results_csv # CSV summaries of model performance
+Main folders and files:
+/yolov5_forked       # Complete YOLOv5 codebase (training, detection, segment, utils)
+/poids               # Placeholder folder where trained weights (e.g., best_1280px_v5l.pt) can be placed
+/data                # Configuration files for datasets (paths, classes)
+/utils               # Custom helper functions
+requirements.txt     # List of Python dependencies
+train.py             # Training entry point
+detect.py            # Inference script
+val.py               # Evaluation script
 
-/detection_results
-├── run1_test-dataset_1280_v5l # YOLOv5 inference outputs for experiment 1
-├── run2_exp-density_1280_v5l # YOLOv5 inference outputs for experiment 2
-├── run3_exp-networks_1280_v5l # YOLOv5 inference outputs for experiment 3
-└── run4_exp-biomass_1280_v5l # YOLOv5 inference outputs for experiment 4
-
-/yolov5_forked
-├── modified YOLOv5 codebase and utilities used in this project
-├── training scripts
-└── inference scripts
-
-/data
-├── annotations_json # Original annotation files in JSON format
-├── input_dataset # Training images (original and augmented)
-└── outputs # Training logs and validation results
+Additional files such as model comparisons, training data, and detection results are available on Figshare:
+🔗 https://doi.org/10.6084/m9.figshare.29545529
 
 ---
 
