@@ -1,6 +1,7 @@
 # YOLO-Folsomia
 
-Reproducible pipeline for training, evaluating, and applying YOLOv5 to detect and count *Folsomia candida* in lab microcosms. This repository includes code, model weights, data structure, and documentation related to:
+Reproducible pipeline for training, evaluating, and deploying YOLOv5 to detect and count Folsomia candida in laboratory microcosms. Includes all code, data structure, model weights, web application, and documentation for: 
+
 
 Argote, K.; Santonja, M.; Geslin, B.; Miranda-Fuentes, J.; Albert C.H. (2025).
 YOLO-Folsomia: A model to detect and count soil mesofauna in laboratory settings.
